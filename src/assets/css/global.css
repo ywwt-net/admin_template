@@ -1,0 +1,22 @@
+/* global.css */
+html, body, #app {
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* 现代字体 */
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+
+  /* 模态框样式 */
+  .dialog-custom {
+    --dialog-width: 30%;
+    width: var(--dialog-width);
+  }
+  
+  .dialog-custom .el-form-item__label {
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+  }
